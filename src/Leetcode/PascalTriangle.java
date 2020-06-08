@@ -1,14 +1,14 @@
 package Leetcode;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author JokerMss
+ */
 public class PascalTriangle {
 
-    public static @NotNull
-    List<List<Integer>> generate(int numRows) {
+    static List<List<Integer>> generate(int numRows) {
         List<List<Integer>> list_All = new ArrayList<>();
         if(numRows<1){
             return list_All;
